@@ -3,33 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Pedro" />
-    <meta name="description" content="Projeto coffe tripleten" />
-    <meta name="keywords" content="Café , tripleten, estudando" />
-    <link rel="stylesheet" href="./pages/index.css" />
+    <meta name="author" content="Pedro Abreu" />
+    <meta name="keywords" content="web café" />
+    <meta
+      name="description"
+      content="Projeto da sprint 4 feito com HTML e CSS"
+    />
+    "
     <link rel="stylesheet" href="./vendor/normalize.css" />
-    <link rel="stylesheet" href="./favicon.ico" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap"
-      rel="stylesheet"
-    />
-    <title>Café</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <title>Cafe</title>
   </head>
+
   <body>
     <div class="page">
-      Testando
-      <header class="header"></header>
-      <main class="content">
-        <section class="recipes"></section>
-        <section class="reservation"></section>
-      </main>
-      <footer class="footer"></footer>
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="logo cafe"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li><a class="nav__link"> Receitas </a></li>
+            <li><a class="nav__link">Reservar uma mesa</a></li>
+            <li><a class="nav__link">Contatos</a></li>
+          </ul>
+        </nav>
+        <div class="header__content">
+          <div>
+            <h1 class="header__title">
+              <span class="span-accent"> Café especial</span> na biblioteca
+              Triple Peaks
+            </h1>
+            <p class="header__description">
+              Esta é nossa zona de estudo! Temos aquele cafezinho para energizar
+              você e vibrações aconchegantes para soltar a criatividade.
+            </p>
+          </div>
+          <img
+            src="./images/inside_coffee_shop.png"
+            alt="Dentro do cafe"
+            class="header__image"
+          />
+        </div>
+        <div class="header__footer">
+          <ul class="header__footer-list">
+            <li>Horários:</li>
+            <li>Segunda a sexta (10:00 - 19:00)</li>
+            <li>Sábado a domingo (11:00 - 18:00)</li>
+          </ul>
+          <p class="header__paragraph">
+            200 Success Avenue, a cidade de Triple Peaks
+          </p>
+        </div>
+      </header>
     </div>
   </body>
 </html>
