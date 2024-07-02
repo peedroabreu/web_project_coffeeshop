@@ -1,8 +1,4 @@
 .page {
-  min-height: 720px;
-  max-height: 800px;
-  height: 100vh;
-  box-sizing: border-box;
   font-family: "Inter", Arial, sans-serif;
   font-family: "Noto Serif", "Times New Roman", serif;
 }
