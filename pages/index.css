@@ -36,7 +36,7 @@
   position: relative;
 }
 
-.nav__link-link {
+.nav__links-link {
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -45,7 +45,7 @@
   text-decoration: none;
 }
 
-.nav__link {
+.nav__links {
   list-style-type: none;
   display: flex;
   margin-top: 30px;
