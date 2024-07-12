@@ -10,7 +10,6 @@
       content="Projeto da sprint 4 feito com HTML e CSS"
     />
 
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -115,45 +114,51 @@
           <div class="form">
             <form class="form reservation__form">
               <fieldset class="reservation__info">
-                <label class="reservation__legendas"
-                  >Nome
-                  <br />
-                  <input
-                    type="text"
-                    class="reservation__input"
-                    placeholder="Nome"
-                    required
-                  />
-                </label>
+                <div>
+                  <label class="reservation__legendas"
+                    >Nome
 
-                <label class="reservation__legendas"
-                  >Número de convidados
-                  <br />
-                  <input
-                    type="number"
-                    min="1"
-                    max="8"
-                    class="reservation__input"
-                    placeholder="1-8"
-                    required
-                  />
-                </label>
+                    <input
+                      type="text"
+                      class="reservation__input"
+                      placeholder="Nome"
+                      required
+                    />
+                  </label>
+                </div>
+                <div>
+                  <label class="reservation__legendas"
+                    >Número de convidados
 
-                <label class="reservation__legendas"
-                  >Data e hora
-                  <br />
-                  <input type="date" class="reservation__input" required
-                /></label>
+                    <input
+                      type="number"
+                      min="1"
+                      max="8"
+                      class="reservation__input"
+                      placeholder="1-8"
+                      required
+                    />
+                  </label>
+                </div>
+                <div>
+                  <label class="reservation__legendas"
+                    >Data e hora
 
-                <label class="reservation__legendas"
-                  >Seu e-mail
-                  <br />
-                  <input
-                    type="email"
-                    class="reservation__input"
-                    placeholder="email@email.com"
-                    required
-                /></label>
+                    <input type="date" class="reservation__input" required />
+                  </label>
+                </div>
+                <div>
+                  <label class="reservation__legendas"
+                    >Seu e-mail
+
+                    <input
+                      type="email"
+                      class="reservation__input"
+                      placeholder="email@email.com"
+                      required
+                    />
+                  </label>
+                </div>
                 <button class="reservation__button">Reservar uma mesa</button>
                 <div class="reservation__termos">
                   <input
@@ -170,7 +175,38 @@
           </div>
         </section>
       </main>
-      <footer id="footer" class="footer"></footer>
+      <footer id="footer" class="footer">
+        <div class="footer__content">
+          <div class="footer__logo">
+            <img src="/images/logo_coffeeshop_light.svg" alt="logo-footer" />
+          </div>
+          <div class="footer__circle"></div>
+          <div class="footer__social">
+            <h4 class="footer__social-heading">Midia social</h4>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a class="footer__social-link" href="#">
+                  <img
+                    src="/images/facebook_white.svg"
+                    alt="facebook-image"
+                    class="footer__social-icon"
+                  />Facebook
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a class="footer__social-link" href="#">
+                  <img
+                    src="/images/instagram_white.svg"
+                    alt="instagram-logo"
+                    class="footer__social-icon"
+                  />Instagram
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">© 2024 Pedro Abreu</p>
+      </footer>
     </div>
   </body>
 </html>

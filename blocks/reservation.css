@@ -1,0 +1,90 @@
+.reservation {
+  background-color: #d9e7ff;
+  background-image: url(../images/background_reservation.svg);
+
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  margin-top: -80px;
+}
+
+.reservation__info {
+  border: none;
+  max-width: 385px;
+}
+
+.reservation__title {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  padding-top: 100px;
+  margin: 0 auto 80px;
+}
+.reservation__form {
+  margin-bottom: 120px;
+  max-width: 385px;
+}
+
+.reservation__legendas {
+  font-family: Inter;
+
+  font-style: normal;
+
+  font-weight: 500;
+
+  font-size: 16px;
+
+  line-height: 20px;
+  display: block;
+}
+
+.reservation__input {
+  border-radius: 4px;
+  font-family: Inter;
+
+  font-style: normal;
+
+  font-weight: normal;
+
+  font-size: 20px;
+  width: 100%;
+  height: 60px;
+  line-height: 30px;
+  margin-top: 8px;
+  margin-bottom: 32px;
+}
+
+.reservation__button {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 4px;
+  height: 60px;
+  background-color: #2f80ed;
+  color: white;
+  max-width: 385px;
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.reservation__button:hover {
+  opacity: 70%;
+}
+
+.reservation__termos {
+  display: flex;
+}
+
+.reservation__checkbox {
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+}
